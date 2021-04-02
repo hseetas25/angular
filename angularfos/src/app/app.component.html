@@ -1,5 +1,10 @@
-<div class="container">
+<!-- <div class="container">
   <p>{{title}}</p>
 <p [id]="sayHelloId" [style.color]="fontColor">You can set my color in the component!</p>
 <button  class="btn btn-success"(click)="sayMessage()" [disabled]="canClick">Click to get alert</button>
+</div> -->
+<app-top-bar></app-top-bar>
+
+<div class="container">
+  <router-outlet></router-outlet>
 </div>
